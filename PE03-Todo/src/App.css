@@ -1,0 +1,105 @@
+/* Global Styles */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+/* App Container */
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Todo Container */
+
+.todo-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+/* Header */
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Input Field */
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+/* Buttons */
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Todo List */
+
+.todo-list {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Todo Task */
+
+.todo-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.todo-task span {
+  flex-grow: 1;
+  color: #333;
+}
+
+/* Delete Button */
+
+.todo-task button {
+  background-color: #f44336;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 80px;
+}
+
+.todo-task button:hover {
+  background-color: #e53935;
+}
