@@ -9,7 +9,7 @@ const CityDetails = ({ cities }) => {
     <div>
       {city ? (
         <div className="city-details">
-          <h3>{city.name}</h3>
+          <h3>{city.name} - Details </h3>
           <p>Country: {city.country}</p>
           <p>Population: {city.population}</p>
         </div>

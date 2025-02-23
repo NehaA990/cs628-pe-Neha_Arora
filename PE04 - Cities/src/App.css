@@ -1,3 +1,14 @@
+/* Center the app title */
+.app-header {
+  text-align: center; /* Center the title */
+  margin: 20px 0; /* Optional: Adds some space around the title */
+}
+
+.app-title {
+  font-size: 2em; /* You can adjust the size as needed */
+  font-weight: bold; /* Makes the title bold */
+}
+
 /* Updated Navigation Styles */
 .navigation {
   margin: 20px 0;
