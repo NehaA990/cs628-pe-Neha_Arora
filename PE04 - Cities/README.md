@@ -1,11 +1,12 @@
-## Input
 
-The program takes user inputs for adding cities, which include the city name, country, and population. These inputs are collected through a form in the "Add City" screen. The program uses React state to manage the list of cities dynamically, starting empty and updating as users add new entries.
+# Input
 
-## Process
+The **input** to the Cities Application consists of user-provided city details: the city’s  **name** ,  **country** , and  **population** . These values are entered through a form in the "Add City" page. The form requires all fields to be filled in before submission.
 
-Once a city is added, the program updates the **cities state** and re-renders the city list. React Router manages navigation, ensuring smooth redirection between pages. Clicking on a city displays its details on the same page. The program follows a  **single-page application (SPA) approach** , avoiding full-page reloads.
+# Process
 
-## Output
+Upon form submission, the application processes the input data by creating a new city object with a unique ID (generated from the current timestamp). This new city object is added to the existing cities list stored in React state. React state ensures that the UI reflects the updated city list. Navigation is handled by  **React Router** , allowing the user to seamlessly switch between the city list, add city form, and city details pages without a full-page reload.
 
-The output consists of a  **city list display** , an  **individual city details page** , and **real-time updates** when a new city is added. The user experience is enhanced through structured UI elements, navigation, and state management.
+# Output
+
+The **output** is a dynamically updated list of cities. Each city is displayed on the "Cities List" page, and clicking on a city name navigates to a detailed page with information about the selected city (name, country, population).
