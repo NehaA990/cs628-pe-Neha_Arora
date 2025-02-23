@@ -1,0 +1,20 @@
+/* Updated Navigation Styles */
+.navigation {
+  margin: 20px 0;
+  font-size: 1.2em;
+  background-color: black;
+  padding: 15px 0; /* Increased padding for spacing */
+  display: flex;
+  justify-content: center; /* Center navigation links */
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px; /* Added spacing between links */
+  font-weight: bold;
+}
+
+.navigation a:hover {
+  color: #007BFF;
+}
